@@ -16,11 +16,9 @@ flask --app core db init
 flask --app core db migrate -m "Initial migration"
 flask --app core db upgrade
 
-### How it looks rendered:
 
 # React Setup
 
-```bash
 # Create React app (if you haven't yet)
 npx create-react-app my-app
 cd my-app
@@ -30,5 +28,6 @@ npm install
 
 # Install axios for HTTP requests
 npm install axios
+
 
 
