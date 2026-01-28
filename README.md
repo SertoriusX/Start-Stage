@@ -15,3 +15,18 @@ pip install Flask Flask-WTF Flask-Login Flask-SQLAlchemy Flask-Migrate Pillow fl
 flask --app core:create_app db init
 flask --app core:create_app db migrate -m "Initial migration"
 flask --app core:create_app db upgrade
+
+### How it looks rendered:
+
+# React Setup
+
+```bash
+# Create React app (if you haven't yet)
+npx create-react-app my-app
+cd my-app
+
+# Install dependencies
+npm install
+
+# Install axios for HTTP requests
+npm install axios
