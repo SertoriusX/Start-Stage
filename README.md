@@ -12,9 +12,9 @@ venv\Scripts\activate
 
 pip install Flask Flask-WTF Flask-Login Flask-SQLAlchemy Flask-Migrate Pillow flask-cors flask_bcrypt flask_jwt_extended
 
-flask --app core:create_app db init
-flask --app core:create_app db migrate -m "Initial migration"
-flask --app core:create_app db upgrade
+flask --app core db init
+flask --app core db migrate -m "Initial migration"
+flask --app core db upgrade
 
 ### How it looks rendered:
 
@@ -30,3 +30,4 @@ npm install
 
 # Install axios for HTTP requests
 npm install axios
+
